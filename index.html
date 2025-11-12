@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИИ-Подруга Чат</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="chat-header">
+            <h1>🤰 БЕРЕМЕННЫЙ ДРАКОН 💬</h1>
+            <div class="online-status">● онлайн</div>
+        </header>
+        
+        <main class="chat-main">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    чау<br>
+                    <span class="timestamp">только что</span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="chat-footer">
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Напиши сообщение..." maxlength="500">
+                <button id="sendBtn" class="send-button">
+                    <span>Отправить</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="quick-buttons">
+                <button class="quick-btn" data-msg="че не спишь?">Не спишь?</button>
+                <button class="quick-btn" data-msg="про руслану">Про Руслану</button>
+                <button class="quick-btn" data-msg="чау">Чау</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
