@@ -474,4 +474,4 @@ body {
 
 .chat-messages::-webkit-scrollbar-thumb:hover {
     background: var(--light-blue);
-  }
+}
